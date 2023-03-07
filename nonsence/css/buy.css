@@ -1,0 +1,83 @@
+/* Style the sections */
+section {
+    margin: 2rem 0;
+  }
+  
+  /* Style the boxes inside each section */
+  .box {
+    width: calc(33.33% - 2rem);
+    height: 150px;
+    display: inline-block;
+    margin: 0 1rem 1rem 0;
+    background-color: #eee25f;
+    border: 3px solid #000000;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px #ccc;
+    overflow: auto;
+
+  }
+  
+  /* Style the content inside each box */
+  .box h3 {
+    color: rgb(0, 64, 159);
+    font-family: consolas;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+  }
+  
+  .box p {
+    font-family: consolas;
+    text-align: center;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+  }
+  
+  /* Style the h2 elements */
+  h2 {
+    color: rgb(0, 64, 159);
+    font-family: consolas;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold
+  }
+  h2:hover {
+    color: #000000;
+    
+  }
+
+  .buya {
+    font-size: small;
+    font-family: consolas ;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(0, 64, 159);
+    background-color: #2d414b00;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+  }
+  
+  .box {
+    position: relative;
+  }
+  
+  .buysignupBtn {
+    position: absolute;
+    bottom: 5;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgb(0, 0, 0);
+    border: 2px solid #000000;
+    background-color: rgb(255, 255, 255);
+    margin-right: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 60px;
+  }
+  .buysignupBtn:hover {
+    color: #0000ff;
+  }
+  
+  

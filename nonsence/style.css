@@ -1,0 +1,131 @@
+body {
+    background-color: #bee298;
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  li {
+    margin: 0 10px;
+  }
+  
+  a {
+    font-family: consolas ;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(0, 64, 159);
+    background-color: #2d414b00;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+  }
+  
+  a:hover {
+    color: #fff;
+    background-color: #333;
+  }
+
+  .section{
+    display: flex;
+  }
+
+
+  h2 {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  
+  }
+  a{
+    text-align: center;
+  }
+  h5{
+    text-align: center;
+    color: rgb(0, 64, 159);
+    font-family: consolas;
+  }
+  h5:hover{
+    color: #000;
+  }
+.discordBtn{
+  width: 100px;
+  height: 50px;
+  display: block;
+  margin: 0 auto;
+ color: rgb(0, 119, 255);
+ background-color: #000;
+ border-radius: 5px;
+ font-family: consolas;
+}
+.discordBtn:hover{
+  color: #fff;
+}
+
+.audio-player {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  background-color: #cecece;
+  padding: 10px;
+  border-top-left-radius: 20px;
+  border-top: 2px solid #000;
+  border-left: 2px solid #000;
+  box-shadow: -5px -5px 5px #fefa2f;
+}
+
+.audio-player .cover {
+  position: relative;
+  width: 100%;
+  height: 120px;
+  margin-bottom: 10px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.audio-player audio {
+  width: 100%;
+}
+
+/* Move h4 and h6 elements around */
+h4 {
+  display: flex;
+  margin-left: 250px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: consolas;
+}
+
+
+
+
+img {
+  width: 260px;
+  height: 260px;
+}
+
+.bored {
+  position: absolute;
+  bottom: 0%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  font-size: 15px;
+  font-weight: bold;
+  color: #333;
+  font-family: consolas;
+}
+.bored:hover{
+  color: orange;
+}

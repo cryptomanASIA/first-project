@@ -1,0 +1,131 @@
+/* Main container */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Heading */
+  .patreonh2 {
+    font-size: medium;
+    animation: typing 5s steps(40) forwards;
+  }
+  .patreonh2:hover{
+    color: rgb(0, 0, 174);
+  }
+  
+  /* Left box */
+  .left-box {
+    background-color:  #eee25f;
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    height: 400px;
+    margin-right: 20px;
+    text-align: center;
+    border: 3px solid rgb(0, 0, 0);
+  }
+  
+  /* Right box */
+  .right-box {
+    background-color:  #eee25f;;
+    padding: 20px;
+    width: 400px;
+    height: 400px;
+    margin-left: 20px;
+    text-align: center;
+    border-radius: 10px;
+    border: 3px solid rgb(0, 0, 0);
+  }
+  
+  /* Bottom box */
+  .bottom-box {
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color:  #eee25f;
+    padding: 20px;
+    width: 80%;
+    height: 75px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: consolas;
+  }
+  
+  
+  /* Display left and right box in a row */
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Add margin to bottom box */
+  .flex-container .bottom-box {
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  p{
+    font-family: consolas;
+    font-size: 20px;
+  }
+  .buttonBtn {
+    
+    
+    color: rgb(0, 0, 0);
+    border: 2px solid #000000;
+    background-color: rgb(255, 255, 255);
+    margin-right: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 100px;
+  }
+
+  .benefits {
+    margin-top: 30px;
+    text-align: center;
+    max-height: 400px;
+    overflow-y: auto;
+  }
+  
+  .benefits ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .benefits li {
+    font-family: consolas;
+    list-style: none;
+    margin-bottom: 15px;
+    font-size: 17px;
+    line-height: 1.5;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    max-height: 80px;
+    overflow: hidden;
+  }
+  
+  .liboxx:hover {
+    color: aliceblue;
+    background-color: #000000;
+    border-radius: 5px;
+    width: 400px;
+  }
+  
+  .benefits li span {
+    display: block;
+  }
+  
+  .wallets{
+    font-size: small;
+  }
+  

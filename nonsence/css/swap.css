@@ -1,0 +1,61 @@
+.box {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #eee25f;
+    border: 1px solid grey;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  .box h2 {
+    font-family: consolas ;
+    font-size: 36px;
+    margin-top: 0;
+    text-align: center;
+  }
+  
+  .box p {
+    font-family: consolas ;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .connect-wallet {
+    position: absolute;
+    top: 7px;
+    right: 10px;
+    font-family: consolas;
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .connect-wallet:hover {
+    transform: scale(1.1);
+    background-color: #1dd89a;
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+  
+  .from-token{
+    font-family: consolas;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .to-token{
+    font-family: consolas;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  

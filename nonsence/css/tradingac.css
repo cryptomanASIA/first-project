@@ -1,0 +1,48 @@
+.trading-box {
+    
+    
+    height: 560px;
+    background-color: #eee25e;
+    border: 3px solid #000000;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .trading-h2:hover{
+    color: rgb(0, 0, 185);
+    
+  }
+  .foter-text{
+    color: rgb(193, 0, 0);
+  }
+  .foter-text:hover{
+    color: aliceblue;
+    background-color: black;
+    border-radius: 5px;
+  }
+  .des-text{
+    background-color: #e4d214;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    font-family: consolas;
+  }
+
+  .ttl-text{
+    font-family: consolas;
+    font-size: 15px;
+    color: rgb(43, 0, 255);
+    
+    
+  }
+  .text-h3{
+    text-align: left;
+    font-family: consolas;
+    font-size: 17px;
+  }
+  .text-h3:hover{
+    border-radius: 5px;
+    color: azure;
+    background-color: #000000;
+    text-align: center;
+  }

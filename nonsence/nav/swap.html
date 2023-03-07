@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/css/swap.css">
+    <title>CryptomanASIA</title>
+  </head>
+  <body>
+    <header>
+        <nav>
+            <ul>
+                 <li><a href="/index.html">Home</a></li>
+                 <li><a href="/nav/buy.html">Buy Crypto</a></li>
+                  <li><a href="/nav/tradingac.html">Trading Academy</a></li>
+                  <li><a href="/nav/patreon.html">Patreon</a></li>
+                  <li><a href="/nav/swap.html">Kaspa Swap</a></li>
+            </ul>
+           
+
+
+        </nav>
+    </header>
+    <main>
+    
+    <div class="box">
+      <h2>Kaspa Swap</h2>
+      <p>Select the tokens you want to swap:</p>
+      
+      <div class="from-token">
+        <h3 class="swap-h3">From</h3>
+        <label for="from-token-select">Select your token:</label>
+        <select id="from-token-select" name="from-token-select">
+          <option value="ksp">Kaspa (KSP)</option>
+          <option value="btc">Bitcoin (BTC)</option>
+          <option value="eth">Ethereum (ETH)</option>
+          <option value="usdt">Tether (USDT)</option>
+        </select>
+        <br>
+        <label for="from-amount-input">Amount to Swap:</label>
+        <input type="number" id="from-amount-input" name="from-amount-input">
+      </div>
+      
+      <div class="to-token">
+        <h3 class="swap-h3">To</h3>
+        <label for="to-token-select">Select your token:</label>
+        <select id="to-token-select" name="to-token-select">
+          <option value="ksp">Kaspa (KSP)</option>
+          <option value="btc">Bitcoin (BTC)</option>
+          <option value="eth">Ethereum (ETH)</option>
+          <option value="usdt">Tether (USDT)</option>
+        </select>
+        <br>
+        <label for="to-amount-input">Estimated Amount:</label>
+        <input type="number" id="to-amount-input" name="to-amount-input" disabled>
+      </div>
+    
+      <p>Swap fee: 1% of the transaction amount</p>
+      <button class="connect-wallet">Connect Wallet</button>
+    </div>
+    
+      
+      
+    
+    
+    
+    </main>
+     <script src="/style.js"></script>
+  </body>
+</html>
